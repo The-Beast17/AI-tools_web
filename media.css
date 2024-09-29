@@ -1,0 +1,173 @@
+nav .offcanvas-btn{
+    display: none;
+}
+@media(max-width : 600px){
+    nav ul , nav .nav-btns{
+           display: none;
+    }
+    nav .offcanvas-btn{
+        display: initial;
+        background-color: transparent;
+        border : none;
+    }
+    nav .offcanvas-btn i{
+        font-size: 4vh;
+    }
+   
+    /*page1******************/
+    .page1 .content h1{
+        padding : 2vw 8vw;
+        font-size: 12vw;
+    }
+    .page1 .content .scroller {
+        width : 80%;
+    }
+    .page1 .content .scroller p{
+        font-size: 3vw;
+    }
+
+
+    /*page1 animation***********/
+    .page1 .main-box{
+       height : 23vw;
+       width : 18vw;
+       left : 45%;
+    }
+
+    .page1 .box{
+       height : 7vw;
+       width : 7vw;
+    }
+
+    
+@keyframes bounce-left{
+    0%{
+        top : 50%; 
+        left : -10vh; 
+        transform: rotate(0deg);  
+    }
+   
+    20%{
+        top : 95%;    
+    }
+   
+    40%{
+        top : 80%;    
+    }
+ 
+    60%{
+        top : 95%;    
+    }
+    
+    80%{
+        top : 70%;    
+    }
+  
+    100%{
+         top : 90%;
+         left : 48%;
+         transform: rotate(720deg);
+         display: none;
+    }
+}
+    
+@keyframes bounce-right{
+    0%{
+        top : 50%; 
+        right : -10vh; 
+        transform: rotate(0deg);  
+    }
+   
+    20%{
+        top : 95%;    
+    }
+   
+    40%{
+        top : 80%;    
+    }
+ 
+    60%{
+        top : 95%;    
+    }
+    
+    80%{
+        top : 70%;    
+    }
+
+    100%{
+         top : 90%;
+         right : 48%;
+         transform: rotate(720deg);
+         display: none;
+    }
+}
+
+/***************page 2 ************/
+.page2{
+    height : max-content;
+}
+
+.page2 .content{
+    flex-direction: column;
+}
+.page2 .content .left{
+   width : 100%;
+}
+.page2 .content .left h1{
+   font-size :12vw;
+}
+.page2 .content .left p{
+   font-size :3vw;
+}
+.page2 .content .right {
+    width : 100%;
+    text-align: center;
+    padding : 3vw 0;
+}
+
+/*********************page 3 *******************/
+.page3{
+    height : max-content;    
+}
+.page3 .card{
+    height : 50vw;    
+}
+.page3 .card h2{
+    margin : 2vw 0;
+    font-size : 3vw;
+}
+.page3 .card p{
+    font-size : 2vw;
+}
+
+/*********************page 4****************/
+.page4{
+    height : max-content;
+    text-align: center;
+}
+
+.page4 .content{
+    flex-direction: column;
+    justify-content: center;
+    padding : 8vw 0;
+}
+.page4 .content .right{
+   width : 100%;
+}
+.page4 .content .right h1{
+   font-size :12vw;
+}
+.page4 .content .right p{
+   font-size :3vw;
+}
+.page4 .content .right button{
+   margin: 0 auto;
+}
+.page4 .content .left{
+    width : 100%;
+    text-align: center;
+    padding : 3vw 0;
+    border : none;
+}
+
+}
