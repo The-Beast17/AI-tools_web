@@ -52,7 +52,7 @@ nav ul a {
 }
 
 nav ul a:hover{
-    background-image: linear-gradient(to right,rgb(253, 105, 130),rgb(248, 155, 171), rgb(99, 99, 244));
+    background-image: linear-gradient(to right,rgb(249, 72, 102),rgb(254, 147, 165), rgb(38, 38, 250));
     color : white;
 }
 nav .nav-btns{
@@ -79,10 +79,10 @@ nav .nav-btns button:last-child:hover{
     background-color: rgb(0, 0, 0);
     color :white;
 }
-nav .nav-btns button:first-child:hover{
+nav .nav-btns .login-btn:hover{
     color :white;
+   background-color: #000000;
 }
-
 
 
 .page1{
@@ -159,7 +159,11 @@ nav .nav-btns button:first-child:hover{
     border : none;
     color : white;
     margin: 0 auto;
+    transition : 0.25s linear;
 
+}
+.page1  .content  button:hover{ 
+    background-color: rgb(108, 12, 199);
 }
 
 /*********animation***********/
@@ -376,6 +380,11 @@ nav .nav-btns button:first-child:hover{
     background-color: blueviolet;
     border : none;
     color : white;
+    transition : 0.25s linear;
+
+}
+.page2  .content .left  button:hover{ 
+    background-color: rgb(108, 12, 199);
 }
 
 .page2 .content .right {
@@ -482,6 +491,11 @@ nav .nav-btns button:first-child:hover{
     background-color: blueviolet;
     border : none;
     color : white;
+    transition : 0.25s linear;
+}
+
+.page4  .content .right  button:hover{ 
+    background-color: rgb(108, 12, 199);
 }
 
 .page4 .content .left {
@@ -494,4 +508,44 @@ nav .nav-btns button:first-child:hover{
 
 .page4 .content .left img{
     width : 70%;
+}
+
+
+/************Footer*****************/
+
+footer{
+    /* height : 45vh; */
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding : 2vw;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul:first-child{
+    list-style: none;
+    display : flex;
+    gap : 1vw;
+}
+
+footer a{
+    text-decoration: none;
+    transition: 0.5s linear;
+    font-size: 1.1vw;
+    color : white;
+}
+footer a:hover {
+    text-decoration: underline;  
+}
+
+footer ul:last-child{
+    list-style: none;
+    display : flex;
+    gap : 4vw;
+}
+
+footer ul:last-child a{
+    color : rgb(213, 28, 207);
 }
