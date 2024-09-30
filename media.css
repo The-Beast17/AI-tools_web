@@ -151,7 +151,6 @@ nav .offcanvas-btn{
 
 /*********************page 4****************/
 .page4{
-    height : max-content;
     text-align: center;
 }
 
@@ -159,6 +158,7 @@ nav .offcanvas-btn{
     flex-direction: column;
     justify-content: center;
     padding : 8vw 0;
+    border : none;
 }
 .page4 .content .right{
    width : 100%;
@@ -178,15 +178,42 @@ nav .offcanvas-btn{
     padding : 3vw 0;
     border : none;
 }
-   /*footer******/
 
-   footer {
-    padding : 3vw 4vw;
-   }
+/**********page 5*****************/
+.page5{
+    /* height : max-content; */
+    text-align: center;
+}
 
-   footer ul{
-    align-items: baseline;
-   }
+.page5 .content{
+    flex-direction: column;
+    justify-content: center;
+    padding : 8vw 0;
+    border : none;
+}
+.page5 .content{
+   width : 100%;
+}
+.page5 .content h1{
+   font-size :12vw;
+}
+.page5 .content p{
+   font-size :3vw;
+}
+.page5 .content b{
+   font-size :3vw;
+}
+
+
+
+/*footer******/
+
+footer {
+ padding : 3vw 4vw;
+}
+footer ul{
+ align-items: baseline;
+}
 
 footer a{
     font-size: 2.8vw;
